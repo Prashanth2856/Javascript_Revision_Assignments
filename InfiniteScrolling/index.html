@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #maindiv{
+        width: 50%;
+        height: 600px;
+        border: 25px solid green;
+        border-radius: 5px;
+        overflow: scroll;
+        padding: 10px;
+        margin: auto;
+    }
+    #dataDiv{
+        height: 50px;
+        padding: 10px;
+        font-size: x-large;
+        color:green;
+        padding-left: 30px;
+        text-align: center;
+    }
+    .navbar{
+        color:green;
+        text-align: center;
+        margin-top: 30px;
+        font-size: xx-large;
+    }
+    .namedata{
+        background-color:red;
+        padding:10px;
+        width: 300px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+</style>
+<body>
+    <div class="navbar">Infinite Scrolling - Student Details</div>
+    <div id='maindiv' onscroll="infiniteScroll()">
+        <div id='dataDiv'></div>
+    </div>
+</body>
+</html>
+<script>
+    var dataDiv = document.getElementById('dataDiv');
+    var number=0;
+function showData(){
+    for(var i=1;i<=25;i++){
+        number++;
+        var namedata = document.createElement('p');
+        namedata.setAttribute('class','namedata')
+        namedata.innerText= `Student Details ${number}`;
+        dataDiv.append(namedata);
+    }
+}
+showData()
+
+function infiniteScroll(){
+    number++;
+        var namedata11 = document.createElement('p');
+        namedata11.setAttribute('class','namedata')
+        namedata11.innerText= `Student Details ${number}`;
+        dataDiv.append(namedata11);
+}
+    
+</script>
