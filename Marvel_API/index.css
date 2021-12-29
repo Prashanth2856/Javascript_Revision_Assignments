@@ -1,0 +1,72 @@
+*{
+  background-color: black;
+}
+.imgdiv{
+  margin-top: 80px;
+
+}
+.image{
+  width:26%;
+  margin: auto;
+  margin-left:37%;
+  height: 100px;
+}
+.comic{
+ font-size:2rem;
+ color:red;
+ text-decoration: none;
+ margin-left: 50px ;
+ border: 1px solid white;
+ border-radius:10px;
+ margin-top:20px;
+ padding: 5px;
+}
+.comic:hover{
+  background-color:white;
+  cursor: pointer;
+  border: 1px solid red;
+}
+.searchBox {
+  border: 1px solid rgb(114, 114, 114);
+  height: 50px;
+  width: 25%;
+  margin: auto;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.searchBox > input {
+  float: left;
+  font-size: 20px;
+  height: 95%;
+  width: 70%;
+  color: #fff;
+  border: 0;
+  outline: 0;
+}
+
+.searchBox > #searchIcon {
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+  color: white;
+}
+
+#inputResults {
+  border:1px solid white;
+  margin: auto;
+  border-radius: 5px;
+  max-height: 400px;
+  width: 24.5%;
+  color: #fff;
+  padding-left: 15px;
+  overflow-y: scroll;
+}
+
+.charName {
+  margin-top: 5px;
+}
+
+.charName:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,68 @@
+  body{
+        background-color:black;
+    }
+.head{
+    margin-left: 38%;
+    text-decoration: underline;
+    color: red;
+    font-size: 3rem;
+}
+#comics{
+    width: 70%;
+    border: 2px solid orange;
+    margin: auto;
+    padding:15px;
+    text-align: center;
+}
+.name{
+    font-size: 1.5rem;
+    border: 1px solid rgb(124, 124, 124);
+    padding: 10px;
+    background-color:orange;
+}
+.name:hover{
+    cursor:pointer;
+    background-color:white;
+}
+.title{
+    color: red;
+    font-size: 1.7rem;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.series{
+    color: red;
+    font-size: 1.4rem;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.comicimg{
+    height: 500px;
+    width: 1020px;
+}
+.btn{
+    width: 100px;
+    height:50px;
+    float: right;
+    font-size: 24px;
+    border-radius:10px;
+    background-color:red;
+    color:black;
+}
+.btn:hover{
+    background-color:white;
+    cursor:pointer;
+}
+.marvel{
+ font-size:2rem;
+ color:red;
+ float:left;
+ text-decoration: none;
+ border: 2px solid white;
+ border-radius:10px;
+ padding: 5px;
+}
+.marvel:hover{
+    background-color:white;
+    cursor: pointer;
+}
